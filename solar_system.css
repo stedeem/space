@@ -1,0 +1,150 @@
+body {
+    background: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 2em;
+    transform: translateY(-100px);
+}
+
+.solarsystem {
+    position: relative;
+    width: 400px;
+    height: 400px;
+}
+
+.planet {
+    border-radius: 50%;
+    top: 50%;
+    right: 50%;
+}
+
+.orbit {
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid white;
+    top: 50%;
+    /* right: 50%; */
+    transform: translate(-50%, -50%);
+}
+
+.sun {
+    position: absolute;
+    background: yellow;
+    width: 50px;
+    height: 50px;
+    transform: translate(-50%, -50%)
+}
+
+.orbit1 {
+    width: 100px;
+    height: 100px;
+    right: 150px;
+}
+
+.mercury {
+    background: rgb(255, 255, 174);
+    width: 20px;
+    height: 20px;
+    transform: translate(138px, 140px);
+}
+
+.orbit2 {
+    width: 150px;
+    height: 150px;
+    right: 100px;
+}
+
+.Venus {
+    background: rgb(255, 181, 21);
+    width: 25px;
+    height: 25px;
+    transform: translate(134px, 92px);
+}
+
+.orbit3 {
+    width: 220px;
+    height: 220px;
+    right: 30px;
+}
+
+.erth {
+    background: rgb(25, 144, 255);
+    width: 25px;
+    height: 25px;
+    transform: translate(133px, 35px);
+}
+
+.orbit4 {
+    width: 290px;
+    height: 290px;
+    right: -30px;
+}
+
+.march {
+    background: rgb(255, 60, 0);
+    width: 29px;
+    height: 29px;
+    transform: translate(130px, -30px);
+}
+
+.orbit5 {
+    width: 380px;
+    height: 380px;
+    right: -120px;
+}
+
+.Jupiter {
+    background: rgb(214, 131, 54);
+    width: 40px;
+    height: 40px;
+    transform: translate(124px, -110px);
+}
+
+.orbit6 {
+    width: 470px;
+    height: 470px;
+    right: -210px;
+}
+
+.saturn {
+    background: rgb(39, 107, 96);
+    width: 37px;
+    height: 37px;
+    transform: translate(124px, -194px);
+}
+
+.orbit7 {
+    width: 560px;
+    height: 560px;
+    right: -210px;
+    transform: translate(-185px, -280px)
+}
+
+.uran {
+    background: rgb(18, 96, 212);
+    width: 25px;
+    height: 25px;
+    transform: translate(130px, -270px);
+}
+
+.orbit8 {
+    width: 640px;
+    height: 640px;
+    right: -210px;
+    transform: translate(-145px, -320px)
+}
+
+.neptune {
+    background: rgb(16, 147, 156);
+    width: 30px;
+    height: 30px;
+    transform: translate(127px, -335px);
+}
